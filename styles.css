@@ -1,0 +1,628 @@
+
+.titillium-web-extralight {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.titillium-web-light {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.titillium-web-regular {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titillium-web-semibold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.titillium-web-bold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.titillium-web-black {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.titillium-web-extralight-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.titillium-web-light-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.titillium-web-regular-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.titillium-web-semibold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.titillium-web-bold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+
+body {
+  
+  background-color: #0b0c10;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+
+
+.navbar {
+  
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;           
+  padding: 15px 50px;
+  background-color: #050507;
+  border-bottom: 1px solid #1a1a1f;
+}
+
+
+.logo {
+  font-family: 'Teko', sans-serif; 
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+
+
+.logo span {
+  color: #ff1801;
+}
+
+
+.navbar nav a {
+  color: #a0a0a0;
+  text-decoration: none; 
+  margin: 0 15px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+
+.navbar nav a:hover {
+  color: #ffffff;
+}
+
+
+.btn-comprar {
+  background-color: #ff1801;
+  color: #ffffff;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+
+.btn-comprar:hover {
+  background-color: #d61100;
+}
+
+
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 50px 20px 50px;
+  
+  background: linear-gradient(180deg, #050507 0%, #0b0c10 100%);
+}
+
+
+.hero-left {
+  max-width: 450px;
+}
+
+
+.subtitle {
+  color: #ff1801;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+
+
+.hero-left h1 {
+  font-family: 'Teko', sans-serif;
+  font-size: 64px;
+  line-height: 0.85; 
+  font-style: italic;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+
+.hero-left h1 span {
+  color: #ff1801;
+}
+
+
+.description {
+  color: #8a8a93;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+
+.hero-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+
+.btn-red {
+  background-color: #ff1801;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 2px;
+}
+
+
+.btn-outline {
+  border: 1px solid #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 2px;
+}
+
+
+.hero-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+
+.car-image-container {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+  border-left: 3px solid #ff1801;
+}
+
+
+.car-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+
+.stats-bar {
+  display: flex;
+  gap: 40px;
+  margin-top: 15px;
+}
+
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.stat-num {
+  font-family: 'Teko', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+
+.stat-lbl {
+  font-size: 9px;
+  color: #777;
+  letter-spacing: 1px;
+}
+
+
+
+.zebra-strip {
+  height: 12px;
+
+  background: repeating-linear-gradient(
+    -45deg,
+    #ff1801,
+    #ff1801 15px,
+    #ffffff 15px,
+    #ffffff 30px
+  );
+  margin-bottom: 40px;
+}
+
+
+
+.content-wrapper {
+  max-width: 1000px;
+  margin: 0 auto; 
+  padding: 0 20px 60px 20px;
+}
+
+
+.section {
+  margin-bottom: 50px;
+}
+
+
+.section-title {
+  font-family: 'Teko', sans-serif;
+  font-size: 28px;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+
+.sec-num {
+  color: #ff1801;
+  margin-right: 5px;
+}
+
+
+
+.pilotos-grid {
+ 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+
+.card-piloto {
+  background-color: #121318;
+  border-top: 3px solid #ff1801; 
+  padding: 20px 15px;
+  border-radius: 0 0 4px 4px;
+}
+
+
+
+.card-mclaren { border-top-color: #ff8700; }
+.card-mercedes { border-top-color: #00d2be; }
+.card-audi { border-top-color: #888888; }
+
+
+.piloto-num {
+  font-family: 'Teko', sans-serif;
+  font-size: 50px;
+  color: #ff1801;
+  font-weight: 700;
+  line-height: 0.9;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+.card-mclaren .piloto-num { color: #ff8700; }
+.card-mercedes .piloto-num { color: #00d2be; }
+.card-audi .piloto-num { color: #888888; }
+
+
+.card-piloto h3 {
+  font-size: 13px;
+  font-weight: 400;
+  color: #bbb;
+}
+
+
+.card-piloto h3 span {
+  font-weight: 700;
+  color: #fff;
+  display: block;
+}
+
+
+.card-piloto p {
+  font-size: 11px;
+  color: #666;
+  margin-top: 5px;
+}
+
+
+
+.filter-form {
+  display: flex;
+  gap: 15px;
+  align-items: flex-end; 
+  margin-bottom: 20px;
+}
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+
+.form-group label {
+  font-size: 9px;
+  font-weight: 700;
+  color: #777;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+
+
+.form-group input, 
+.form-group select, 
+.form-group textarea {
+  background-color: #121318;
+  border: 1px solid #22232a;
+  color: #fff;
+  padding: 10px 12px;
+  font-size: 12px;
+  border-radius: 3px;
+  outline: none;
+}
+
+
+.btn-filtrar {
+  background-color: #121318;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  height: 38px;
+}
+
+
+
+.table-container {
+  background-color: #121318;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 12px;
+}
+
+
+th {
+  background-color: #181920;
+  color: #666;
+  font-size: 10px;
+  padding: 12px 15px;
+  letter-spacing: 1px;
+}
+
+
+td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #1a1b22;
+  color: #ccc;
+}
+
+
+
+.rank-1 {
+  background-color: rgba(255, 24, 1, 0.05);
+}
+
+
+.pos-badge {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 11px;
+}
+
+
+.pos-red {
+  background-color: #ff1801;
+  color: #fff;
+}
+
+
+
+.team-indicator {
+  display: inline-block;
+  width: 3px;
+  height: 10px;
+  margin-right: 6px;
+}
+
+
+.ferrari-ind { background-color: #ff8700; }
+.red-ind { background-color: #ff1801; }
+.cyan-ind { background-color: #00d2be; }
+.gray-ind { background-color: #888; }
+
+
+
+.ingressos-layout {
+  display: grid;
+
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+
+.precos-card {
+  background-color: #121318;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+
+.precos-desc {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+
+
+.vagas-alert {
+  background-color: #332a00;
+  color: #ffcc00;
+  font-size: 11px;
+  padding: 8px 12px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+
+.preco-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #1c1d26;
+  font-size: 12px;
+  color: #aaa;
+}
+
+
+.preco-item .valor {
+  color: #ff1801;
+  font-weight: 700;
+}
+
+
+.form-card {
+  background-color: #121318;
+  padding: 25px;
+  border-radius: 4px;
+  border-top: 2px solid #ff1801;
+}
+
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+
+
+.file-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #0b0c10;
+  border: 1px solid #22232a;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.file-input-wrapper input {
+  display: none;
+}
+
+
+.file-btn {
+  background-color: #22232a;
+  color: #ccc;
+  padding: 4px 10px;
+  font-size: 11px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+
+.file-text {
+  font-size: 11px;
+  color: #666;
+}
+
+
+.help-text {
+  font-size: 10px;
+  color: #555;
+  margin-top: 4px;
+}
+
+
+textarea {
+  resize: vertical; 
+  height: 70px;
+}
+
+
+.btn-reservar {
+  width: 100%;
+  background-color: #ff1801;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 2px;
+}
+
+
+.btn-reservar:hover {
+  background-color: #d61100;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #121318;
+  font-size: 11px;
+  color: #444;
+}
